@@ -1,0 +1,208 @@
+{
+  "url": "https://www.vitamix.com/us/en_us",
+  "sanitizedPath": "/us/en-us",
+  "autoDetect": false,
+  "mapping": [
+    {
+      "id": "1",
+      "path": "/nav",
+      "sections": [
+        {
+          "id": "1-1",
+          "blocks": [
+            {
+              "id": "box-id--83274387",
+              "x": 70,
+              "y": 20,
+              "width": 1440,
+              "height": 122,
+              "xpath": "/html[1]/body[1]/div[2]/div[1]/main[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/header[1]",
+              "layout": {
+                "numCols": 2,
+                "numRows": 2
+              },
+              "childrenXpaths": [
+                {
+                  "xpath": "/html[1]/body[1]/div[2]/div[1]/main[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/header[1]/div[1]/div[2]/nav[1]",
+                  "xpathWithDetails": "id(\"masthead\")/div[@class=\"nav-utility background--pale-gray print-hidden\"]/div[@class=\"nav-secondary-wrapper nav-utility-wrapper\"]/nav[@class=\"nav-utility-segments\"]"
+                },
+                {
+                  "xpath": "/html[1]/body[1]/div[2]/div[1]/main[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/header[1]/div[1]/div[2]/nav[2]",
+                  "xpathWithDetails": "id(\"masthead\")/div[@class=\"nav-utility background--pale-gray print-hidden\"]/div[@class=\"nav-secondary-wrapper nav-utility-wrapper\"]/nav[@class=\"nav-secondary nav-utility-my-account\"]"
+                },
+                {
+                  "xpath": "/html[1]/body[1]/div[2]/div[1]/main[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/header[1]/div[2]/a[1]",
+                  "xpathWithDetails": "id(\"masthead\")/div[@class=\"g-row nav-brand\"]/a[@class=\"g-col g-1-2 logo-masthead\"]"
+                },
+                {
+                  "xpath": "/html[1]/body[1]/div[2]/div[1]/main[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/header[1]/div[2]/nav[1]",
+                  "xpathWithDetails": "id(\"masthead\")/div[@class=\"g-row nav-brand\"]/nav[@class=\"nav-main print-hidden prn\"]"
+                }
+              ],
+              "color": "rgba(148, 0, 211, 0.4)",
+              "mapping": "header",
+              "customBlockName": ""
+            }
+          ],
+          "settings": {}
+        }
+      ]
+    },
+    {
+      "id": "2",
+      "path": "/us/en-us",
+      "sections": [
+        {
+          "id": "2-1",
+          "blocks": [
+            {
+              "id": "box-id-2135690739",
+              "x": 502,
+              "y": 1218,
+              "width": 888,
+              "height": 270,
+              "xpath": "/html[1]/body[1]/div[2]/div[1]/main[1]/div[1]/div[1]/div[1]/div[3]/div[1]/div[18]/article[1]/section[2]/div[1]/div[1]/div[2]",
+              "layout": {
+                "numCols": 3,
+                "numRows": 1
+              },
+              "childrenXpaths": [
+                {
+                  "xpath": "/html[1]/body[1]/div[2]/div[1]/main[1]/div[1]/div[1]/div[1]/div[3]/div[1]/div[18]/article[1]/section[2]/div[1]/div[1]/div[2]/div[1]/div[1]/a[1]",
+                  "xpathWithDetails": "id(\"container-e8bd3cacc8\")/div[@class=\"devrawblock\"]/article[@class=\"tmpl-page\"]/section[@class=\"ognm-cardlist-explore-product-categories tmpl-page__section clrs-light clrs-secondary ognm-cardlist-explore-product-categories--carousel js-single-carousel is-at-first-slide\"]/div[@class=\"ognm-cardlist-explore-product-categories__container elmt-container\"]/div[@class=\"ognm-cardlist-explore-product-categories__flex\"]/div[@class=\"ognm-cardlist-explore-product-categories__nav-height\"]/div[@class=\"ognm-cardlist-explore-product-categories__wrap js-single-carousel__wrap\"]/div[@class=\"ognm-cardlist-explore-product-categories__products js-single-carousel__scroller\"]/a[@class=\"ognm-cardlist-explore-product-categories__product js-single-carousel__item\"]"
+                },
+                {
+                  "xpath": "/html[1]/body[1]/div[2]/div[1]/main[1]/div[1]/div[1]/div[1]/div[3]/div[1]/div[18]/article[1]/section[2]/div[1]/div[1]/div[2]/div[1]/div[1]/a[2]",
+                  "xpathWithDetails": "id(\"container-e8bd3cacc8\")/div[@class=\"devrawblock\"]/article[@class=\"tmpl-page\"]/section[@class=\"ognm-cardlist-explore-product-categories tmpl-page__section clrs-light clrs-secondary ognm-cardlist-explore-product-categories--carousel js-single-carousel is-at-first-slide\"]/div[@class=\"ognm-cardlist-explore-product-categories__container elmt-container\"]/div[@class=\"ognm-cardlist-explore-product-categories__flex\"]/div[@class=\"ognm-cardlist-explore-product-categories__nav-height\"]/div[@class=\"ognm-cardlist-explore-product-categories__wrap js-single-carousel__wrap\"]/div[@class=\"ognm-cardlist-explore-product-categories__products js-single-carousel__scroller\"]/a[@class=\"ognm-cardlist-explore-product-categories__product js-single-carousel__item\"]"
+                },
+                {
+                  "xpath": "/html[1]/body[1]/div[2]/div[1]/main[1]/div[1]/div[1]/div[1]/div[3]/div[1]/div[18]/article[1]/section[2]/div[1]/div[1]/div[2]/div[1]/div[1]/a[3]",
+                  "xpathWithDetails": "id(\"container-e8bd3cacc8\")/div[@class=\"devrawblock\"]/article[@class=\"tmpl-page\"]/section[@class=\"ognm-cardlist-explore-product-categories tmpl-page__section clrs-light clrs-secondary ognm-cardlist-explore-product-categories--carousel js-single-carousel is-at-first-slide\"]/div[@class=\"ognm-cardlist-explore-product-categories__container elmt-container\"]/div[@class=\"ognm-cardlist-explore-product-categories__flex\"]/div[@class=\"ognm-cardlist-explore-product-categories__nav-height\"]/div[@class=\"ognm-cardlist-explore-product-categories__wrap js-single-carousel__wrap\"]/div[@class=\"ognm-cardlist-explore-product-categories__products js-single-carousel__scroller\"]/a[@class=\"ognm-cardlist-explore-product-categories__product js-single-carousel__item\"]"
+                }
+              ],
+              "color": "rgba(0, 0, 255, 0.2)",
+              "mapping": "carousel",
+              "customBlockName": ""
+            },
+            {
+              "id": "box-id-2135690708",
+              "x": 190,
+              "y": 1293,
+              "width": 312,
+              "height": 121,
+              "xpath": "/html[1]/body[1]/div[2]/div[1]/main[1]/div[1]/div[1]/div[1]/div[3]/div[1]/div[18]/article[1]/section[2]/div[1]/div[1]/div[1]",
+              "layout": {
+                "numCols": 0,
+                "numRows": 0
+              },
+              "color": "rgba(0, 0, 255, 0.2)",
+              "mapping": "defaultContent",
+              "customBlockName": ""
+            },
+            {
+              "id": "box-id-1944534899",
+              "x": 526,
+              "y": 1576,
+              "width": 864,
+              "height": 60,
+              "xpath": "/html[1]/body[1]/div[2]/div[1]/main[1]/div[1]/div[1]/div[1]/div[3]/div[1]/div[18]/article[1]/nav[1]/div[1]/div[2]",
+              "layout": {
+                "numCols": 3,
+                "numRows": 1
+              },
+              "childrenXpaths": [
+                {
+                  "xpath": "/html[1]/body[1]/div[2]/div[1]/main[1]/div[1]/div[1]/div[1]/div[3]/div[1]/div[18]/article[1]/nav[1]/div[1]/div[2]/ul[1]/li[1]",
+                  "xpathWithDetails": "id(\"container-e8bd3cacc8\")/div[@class=\"devrawblock\"]/article[@class=\"tmpl-page\"]/nav[@class=\"ognm-navigation-info clrs-dark clrs-quaternary\"]/div[@class=\"ognm-navigation-info__container elmt-container\"]/div[@class=\"ognm-navigation-info__menu-area js-info-nav__scroll\"]/ul[@class=\"ognm-navigation-info__menu-area__links\"]/li[@class=\"ognm-navigation-info__menu-area__links__link is-active\"]"
+                },
+                {
+                  "xpath": "/html[1]/body[1]/div[2]/div[1]/main[1]/div[1]/div[1]/div[1]/div[3]/div[1]/div[18]/article[1]/nav[1]/div[1]/div[2]/ul[1]/li[2]",
+                  "xpathWithDetails": "id(\"container-e8bd3cacc8\")/div[@class=\"devrawblock\"]/article[@class=\"tmpl-page\"]/nav[@class=\"ognm-navigation-info clrs-dark clrs-quaternary\"]/div[@class=\"ognm-navigation-info__container elmt-container\"]/div[@class=\"ognm-navigation-info__menu-area js-info-nav__scroll\"]/ul[@class=\"ognm-navigation-info__menu-area__links\"]/li[@class=\"ognm-navigation-info__menu-area__links__link\"]"
+                },
+                {
+                  "xpath": "/html[1]/body[1]/div[2]/div[1]/main[1]/div[1]/div[1]/div[1]/div[3]/div[1]/div[18]/article[1]/nav[1]/div[1]/div[2]/ul[1]/li[3]",
+                  "xpathWithDetails": "id(\"container-e8bd3cacc8\")/div[@class=\"devrawblock\"]/article[@class=\"tmpl-page\"]/nav[@class=\"ognm-navigation-info clrs-dark clrs-quaternary\"]/div[@class=\"ognm-navigation-info__container elmt-container\"]/div[@class=\"ognm-navigation-info__menu-area js-info-nav__scroll\"]/ul[@class=\"ognm-navigation-info__menu-area__links\"]/li[@class=\"ognm-navigation-info__menu-area__links__link\"]"
+                }
+              ],
+              "color": "rgba(0, 0, 255, 0.2)",
+              "mapping": "columns",
+              "customBlockName": ""
+            },
+            {
+              "id": "box-id-1944534868",
+              "x": 190,
+              "y": 1580,
+              "width": 256,
+              "height": 52,
+              "xpath": "/html[1]/body[1]/div[2]/div[1]/main[1]/div[1]/div[1]/div[1]/div[3]/div[1]/div[18]/article[1]/nav[1]/div[1]/div[1]",
+              "layout": {
+                "numCols": 0,
+                "numRows": 0
+              },
+              "color": "rgba(0, 0, 255, 0.2)",
+              "mapping": "defaultContent",
+              "customBlockName": ""
+            }
+          ],
+          "settings": {}
+        }
+      ]
+    },
+    {
+      "id": "3",
+      "path": "/footer",
+      "sections": [
+        {
+          "id": "3-1",
+          "blocks": [
+            {
+              "id": "box-id-2034642018",
+              "x": 278,
+              "y": 6849,
+              "width": 656,
+              "height": 472,
+              "xpath": "/html[1]/body[1]/div[2]/div[1]/main[1]/div[1]/div[1]/div[1]/div[4]/div[1]/div[1]/div[1]/div[1]/div[1]/footer[1]/div[1]/div[1]/div[2]",
+              "layout": {
+                "numCols": 3,
+                "numRows": 1
+              },
+              "childrenXpaths": [
+                {
+                  "xpath": "/html[1]/body[1]/div[2]/div[1]/main[1]/div[1]/div[1]/div[1]/div[4]/div[1]/div[1]/div[1]/div[1]/div[1]/footer[1]/div[1]/div[1]/div[2]/ul[1]/li[1]",
+                  "xpathWithDetails": "id(\"footer\")/div[@class=\"layout-row max-width-base\"]/div[@class=\"footer-elements-container column-grid grid-gap--more\"]/div[@class=\"column-grid--item\"]/ul[@class=\"font-size--small list-unstyled column-grid column-grid--2-col column-grid-sm--3-col\"]/li[@class=\"column-grid--item\"]"
+                },
+                {
+                  "xpath": "/html[1]/body[1]/div[2]/div[1]/main[1]/div[1]/div[1]/div[1]/div[4]/div[1]/div[1]/div[1]/div[1]/div[1]/footer[1]/div[1]/div[1]/div[2]/ul[1]/li[2]",
+                  "xpathWithDetails": "id(\"footer\")/div[@class=\"layout-row max-width-base\"]/div[@class=\"footer-elements-container column-grid grid-gap--more\"]/div[@class=\"column-grid--item\"]/ul[@class=\"font-size--small list-unstyled column-grid column-grid--2-col column-grid-sm--3-col\"]/li[@class=\"column-grid--item\"]"
+                },
+                {
+                  "xpath": "/html[1]/body[1]/div[2]/div[1]/main[1]/div[1]/div[1]/div[1]/div[4]/div[1]/div[1]/div[1]/div[1]/div[1]/footer[1]/div[1]/div[1]/div[2]/ul[1]/li[3]",
+                  "xpathWithDetails": "id(\"footer\")/div[@class=\"layout-row max-width-base\"]/div[@class=\"footer-elements-container column-grid grid-gap--more\"]/div[@class=\"column-grid--item\"]/ul[@class=\"font-size--small list-unstyled column-grid column-grid--2-col column-grid-sm--3-col\"]/li[@class=\"column-grid--item\"]"
+                }
+              ],
+              "color": "rgba(0, 255, 0, 0.3)",
+              "mapping": "columns",
+              "customBlockName": ""
+            },
+            {
+              "id": "box-id--1545160382",
+              "x": 278,
+              "y": 7361,
+              "width": 1024,
+              "height": 22,
+              "xpath": "/html[1]/body[1]/div[2]/div[1]/main[1]/div[1]/div[1]/div[1]/div[4]/div[1]/div[1]/div[1]/div[1]/div[1]/footer[1]/div[2]",
+              "layout": {
+                "numCols": 0,
+                "numRows": 0
+              },
+              "color": "rgba(0, 255, 0, 0.4)",
+              "mapping": "defaultContent",
+              "customBlockName": ""
+            }
+          ],
+          "settings": {}
+        }
+      ]
+    }
+  ]
+}
