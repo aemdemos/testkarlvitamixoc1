@@ -1,4 +1,4 @@
-default function decorate(block) {  
+export default function decorate(block) {  
     let currentIndex = 0;  
     const slides = block.querySelectorAll('.carousel > div');  
     const totalSlides = slides.length;  
