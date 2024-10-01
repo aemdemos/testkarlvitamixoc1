@@ -1,6 +1,6 @@
 default function decorate(block) {  
     let currentIndex = 0;  
-    const slides = block.querySelectorAll('.carousel div');  
+    const slides = block.querySelectorAll('.carousel > div');  
     const totalSlides = slides.length;  
   
     function showSlide(index) {  
@@ -19,8 +19,18 @@ default function decorate(block) {
         showSlide(currentIndex);  
     }  
   
-    block.querySelector('.nav-button.left').addEventListener('click', prevSlide);  
-    block.querySelector('.nav-button.right').addEventListener('click', nextSlide);  
+    const leftButton = document.createElement('button');  
+    leftButton.className = 'nav-button left';  
+    leftButton.textContent = '❮';  
+    leftButton.addEventListener('click', prevSlide);  
+  
+    const rightButton = document.createElement('button');  
+    rightButton.className = 'nav-button right';  
+    rightButton.textContent = '❯';  
+    rightButton.addEventListener('click', nextSlide);  
+  
+    block.appendChild(leftButton);  
+    block.appendChild(rightButton);  
   
     // Initialize the first slide  
     showSlide(currentIndex);  
