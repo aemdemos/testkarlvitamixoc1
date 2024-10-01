@@ -1,24 +1,25 @@
 export default function decorate(block) {  
     let currentIndex = 0;  
-    const slides = block.querySelectorAll('.carousel > div');  
+    const slides = Array.from(block.children);  
     const totalSlides = slides.length;  
   
-    function showSlide(index) {  
-        slides.forEach((slide, i) => {  
-            slide.style.transform = `translateX(${-100 * index}%)`;  
-        });  
-    }  
+    // Create a container for the carousel items  
+    const carouselContainer = document.createElement('div');  
+    carouselContainer.className = 'carousel-container';  
   
-    function nextSlide() {  
-        currentIndex = (currentIndex + 1) % totalSlides;  
-        showSlide(currentIndex);  
-    }  
+    // Wrap each slide in a .carousel-item div and add to the carousel container  
+    slides.forEach(slide => {  
+        const carouselItem = document.createElement('div');  
+        carouselItem.className = 'carousel-item';  
+        carouselItem.appendChild(slide);  
+        carouselContainer.appendChild(carouselItem);  
+    });  
   
-    function prevSlide() {  
-        currentIndex = (currentIndex - 1 + totalSlides) % totalSlides;  
-        showSlide(currentIndex);  
-    }  
+    // Clear the block and add the carousel container  
+    block.innerHTML = '';  
+    block.appendChild(carouselContainer);  
   
+    // Create and append navigation buttons  
     const leftButton = document.createElement('button');  
     leftButton.className = 'nav-button left';  
     leftButton.textContent = '❮';  
@@ -31,6 +32,20 @@ export default function decorate(block) {
   
     block.appendChild(leftButton);  
     block.appendChild(rightButton);  
+  
+    function showSlide(index) {  
+        carouselContainer.style.transform = `translateX(${-100 * index}%)`;  
+    }  
+  
+    function nextSlide() {  
+        currentIndex = (currentIndex + 1) % totalSlides;  
+        showSlide(currentIndex);  
+    }  
+  
+    function prevSlide() {  
+        currentIndex = (currentIndex - 1 + totalSlides) % totalSlides;  
+        showSlide(currentIndex);  
+    }  
   
     // Initialize the first slide  
     showSlide(currentIndex);  
